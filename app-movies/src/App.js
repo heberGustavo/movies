@@ -5,6 +5,8 @@ function App() {
   return (
     <>
       <Header />
+      <h2>Hello World!</h2>
+      <p>I'm lerning React JS</p>
       <Footer />
     </>
   );
