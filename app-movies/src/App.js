@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Header />
-      <Banner />
+      <Banner image="home" />
       <Container>
         <h2>Hello World!</h2>
         <p>I'm lerning React JS</p>
