@@ -7,8 +7,8 @@ function Header(){
             <Link to="/"><span>HG Movies</span></Link>
             <nav>
                 <Link to="/">Home</Link>
-                <Link to="/watch">Assistir</Link>
                 <Link to="/search">Pesquisar</Link>
+                <Link to="/favorites">Favorites</Link>
             </nav>
         </header>
     );
