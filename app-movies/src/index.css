@@ -23,3 +23,16 @@ code {
   flex-wrap: wrap;
   justify-content: center;
 }
+
+html ::-webkit-scrollbar {
+  width: 8px;
+}
+
+html ::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  background: #b71c1c;
+}
+
+html ::-webkit-scrollbar-track {
+  background: #ededed;
+}
