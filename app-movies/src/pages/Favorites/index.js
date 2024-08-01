@@ -5,7 +5,6 @@ import Container from "../../components/Container";
 import Footer from "../../components/Footer";
 import { useFavoriteContext } from "../../contexts/Favorites";
 import VideoList from "../../components/VideoList";
-import SearchVideoList from "../../components/SearchVideoList";
 
 function Favorites(){
     const { listFavorite } = useFavoriteContext();
