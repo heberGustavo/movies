@@ -1,3 +1,8 @@
+<h1 align="center">
+   🎞 HG Movies 🎞
+</h1>
+
+</br>
 
 ## :wrench: How to use
 
