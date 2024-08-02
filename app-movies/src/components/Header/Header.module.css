@@ -1,4 +1,4 @@
-.header{
+.header {
     background-color: #000;
     border-bottom: 2px solid #f44336;
     position: fixed;
@@ -22,4 +22,17 @@
     color: #fff;
     padding-inline: 0.5rem;
     font-size: 18px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .header span {
+        font-size: 1.5rem;
+    }
+
+    .header a {
+        padding-inline: 0.3rem;
+        font-size: 15px;
+    }
 }
