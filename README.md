@@ -1,6 +1,7 @@
 <h1 align="center">
    🎞 HG Movies 🎞
 </h1>
+<p align="center">The first app with React, it's used to show videos from Youtube</p>
 
 </br>
   
