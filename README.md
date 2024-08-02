@@ -17,7 +17,7 @@
 
 This project was developed using:
 
-- React JS
+- React JS (CRA)
 
 Concepts/Techniques used in:
 - Routes
