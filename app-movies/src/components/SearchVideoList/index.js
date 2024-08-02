@@ -1,6 +1,7 @@
 import styles from "./SearchVideoList.module.css";
 import VideoList from "../VideoList";
-import { useState } from "react";
+import Loader from "../Loader";
+import { useEffect, useState } from "react";
 
 function findVideos(videos, input){
     if(!input) return videos;
@@ -12,6 +13,11 @@ function SearchVideoList({ videos }){
     const [inputValue, setInputValue] = useState();
     const currentVideos = findVideos(videos, inputValue);
     
+    const [loading, setLoading] = useState(true);
+    useEffect(() => {
+        setTimeout(() => setLoading(false), 500);
+    });
+
     return(
         <>
             <section className={styles.searchVideoList}>
@@ -22,10 +28,13 @@ function SearchVideoList({ videos }){
                     onChange={e => setInputValue(e.target.value)}
                 />
 
-                <VideoList 
+                {
+                    loading ? <Loader /> :
+                    <VideoList 
                     videos={currentVideos} 
                     emptyHeading={`Sem vídeos sobre "${inputValue}"`}
                     />
+                }
             </section>
         </>
     );
